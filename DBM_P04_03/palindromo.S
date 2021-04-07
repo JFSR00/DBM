@@ -31,8 +31,8 @@ es_palindromo:
 ;	mov		r10, rax
 ;	dec		r8
 bucle:
-	mov		r9b, [r8]
-	cmp		[r11], r9b
+	mov		r9b, byte [r8]
+	cmp		byte [r11], r9b
 	jne		no_pal
 	inc		r11
 	dec		r8
