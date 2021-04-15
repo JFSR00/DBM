@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <immintrin.h>
 
-int fi_sumar_matrices_4x4_double(const double *ptr_matriz_1, const double *ptr_matriz_2, double *ptr_matriz_suma);
+int fi_media_floats(float *ptr_datos, unsigned int longitud_array, float *ptr_resultado);
 
 int main(){
-	double m1[4][4] __attribute__((aligned (32)))=	// Matriz de ejemplo alineada a 32
+	double m1[4][4] =							// Matriz de ejemplo
 	{
 			{1.0,	2.0,	3.0,	4.0},
 			{5.0,	6.0,	7.0,	8.0},
@@ -12,7 +12,7 @@ int main(){
 			{13.0,	14.0,	15.0,	16.0}
 	};
 
-	double res[4][4] __attribute__((aligned (32)));	// Matriz de resultado alineada a 32
+	double res[4][4];							// Matriz de resultado
 
 	fi_sumar_matrices_4x4_double(m1, m1, res);	// Sumamos la matriz m1 consigo misma, es decir, se multiplica por 2 en este ejemplo
 
