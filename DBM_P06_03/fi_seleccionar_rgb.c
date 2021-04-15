@@ -27,11 +27,32 @@
 /// \return			0 => error (ptr_imagen nulo o no alineado o ancho == 0 o alto == 0), 1 => éxito.
 //
 
-int fi_seleccionar_rgb(unsigned char *ptr_imagen,
-                       unsigned int ancho,
-                       unsigned int alto,
-                       unsigned char seleccion_rgb)
+int fi_seleccionar_rgb(unsigned char *ptr_imagen, unsigned int ancho, unsigned int alto, unsigned char seleccion_rgb)
 {
-    // C O M P L E T A R
+	unsigned int i, num_pixels = ancho * alto;
+	unsigned int num_bloques = num_pixels/32;		// Número de bloques de 32 pixels
+	unsigned int resto = num_pixels % 32;			// Resto del número de pixeles fuera de un bloque
+
+	__m256i maskblanco, maskblanco1, maskblanco2;	// Variables de AVX que serán usadas para las máscaras
+	__m256i *ptr = (__m256i*) ptr_imagen;
+
+	// Declaramos las máscaras para las operaciones posteriores
+	unsigned char azul[] = 	{0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0};
+	unsigned char verde[] = {0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF};
+	unsigned char rojo[] = 	{0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0, 0xFF, 0, 0};
+
+	if(ptr_imagen == NULL || ancho == 0 || alto == 0){
+		return 0;
+	}
+
+	maskblanco = _mm256_setzero_si256();
+	maskblanco1 = _mm256_setzero_si256();
+	maskblanco2 = _mm256_setzero_si256();
+
+	if(num_bloques > 0){
+
+	}
 }
+
+
 
