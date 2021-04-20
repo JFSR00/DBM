@@ -23,7 +23,9 @@ int main(int argc, char* argv[])
     /* Seleccionar las componentes roja y azul.
      */
 
-    fi_seleccionar_rgb(bmp->Data, ancho, alto, SELECCIONAR_VERDE | SELECCIONAR_ROJO);
+    printf("Antes\n");
+    fi_seleccionar_rgb(bmp->Data, ancho, alto, SELECCIONAR_AZUL | SELECCIONAR_VERDE);
+    printf("Despues\n");
 
     /* Escribir en disco la imagen resultante.
      */
