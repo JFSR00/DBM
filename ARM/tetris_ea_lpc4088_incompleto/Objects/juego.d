@@ -1,0 +1,17 @@
+.\objects\juego.o: juego.c
+.\objects\juego.o: juego.h
+.\objects\juego.o: bloque.h
+.\objects\juego.o: tipos.h
+.\objects\juego.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\juego.o: pieza.h
+.\objects\juego.o: glcd.h
+.\objects\juego.o: sdram.h
+.\objects\juego.o: font.h
+.\objects\juego.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\juego.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\juego.o: cuveta.h
+.\objects\juego.o: error.h
+.\objects\juego.o: timer0.h
+.\objects\juego.o: timer1.h
+.\objects\juego.o: marcador.h
+.\objects\juego.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
