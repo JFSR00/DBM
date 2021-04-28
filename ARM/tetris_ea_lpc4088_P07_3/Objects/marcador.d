@@ -1,0 +1,11 @@
+.\objects\marcador.o: marcador.c
+.\objects\marcador.o: marcador.h
+.\objects\marcador.o: bloque.h
+.\objects\marcador.o: tipos.h
+.\objects\marcador.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\marcador.o: pieza.h
+.\objects\marcador.o: glcd.h
+.\objects\marcador.o: sdram.h
+.\objects\marcador.o: font.h
+.\objects\marcador.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\marcador.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
