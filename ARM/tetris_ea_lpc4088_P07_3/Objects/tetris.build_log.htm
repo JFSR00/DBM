@@ -3,69 +3,117 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: µVision V5.20.0.0
-Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: - -, -, LIC=LJWQD-8LY00-BXEUY-I5T7X-3ITFP-CC5ZY
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: - -, -, LIC=KIVRA-1225K-GQP0H-W85RQ-FJ8CQ-I8603
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
 Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 2 (build 183)
-Assembler:       Armasm.exe V5.06 update 2 (build 183)
-Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
-Library Manager: ArmAr.exe V5.06 update 2 (build 183)
-Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
-CPU DLL:         SARMCM3.DLL V5.20
-Dialog DLL:      DCM.DLL V1.13.7.0
-Target DLL:      Segger\JL2CM3.dll V2.99.20.0
-Dialog DLL:      TCM.DLL V1.14.9.0
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
  
 <h2>Project:</h2>
-D:\_SSP\uVision\tetris_ea_lpc4088_incompleto\tetris.uvprojx
-Project File Date:  11/27/2017
+C:\Users\Lab. DBM\DBM\ARM\tetris_ea_lpc4088_P07_3\tetris.uvprojx
+Project File Date:  04/29/2021
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling leds.c...
+compiling bloque.c...
+compiling cuveta.c...
+compiling font_8x16.c...
+compiling font_12x24.c...
+compiling font_16x32.c...
+compiling glcd.c...
 compiling joystick.c...
-joystick.c(43): warning:  #940-D: missing return statement at end of non-void function "leer_joystick"
-  }
-joystick.c: 1 warning, 0 errors
+compiling juego.c...
+compiling leds.c...
+compiling main.c...
+compiling marcador.c...
+compiling menu.c...
+compiling pieza.c...
+compiling sdram.c...
+compiling tablero.c...
+compiling timer0.c...
+compiling timer1.c...
+compiling error.c...
+compiling gpio_lpc40xx.c...
+assembling startup_LPC407x_8x_177x_8x.s...
+compiling system_LPC407x_8x_177x_8x.c...
 linking...
-Program Size: Code=16786 RO-data=30242 RW-data=504 ZI-data=2096  
-".\Objects\tetris.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=17674 RO-data=30278 RW-data=504 ZI-data=2096  
+".\Objects\tetris.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
 Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
-                ARM::CMSIS:CORE:5.0.0
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
                 CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 5.0.0
+   * Component: CORE Version: 3.40.0
 
 Package Vendor: Keil
-                http://www.keil.com/pack/Keil.LPC4000_DFP.2.0.0.pack
-                Keil::Device:Startup:1.0.1
+                http://www.keil.com/pack/Keil.LPC4000_DFP.1.1.0.pack
+                Keil::Device:Startup:1.0.0
                 NXP LPC4000 Series Device Support
-   * Component: Startup Version: 1.0.1
+   * Component: Startup Version: 1.0.0
 
 <h2>Collection of Component include folders:</h2>
-  D:\_SSP\uVision\tetris_ea_lpc4088_incompleto\RTE
-  D:\_SSP\uVision\tetris_ea_lpc4088_incompleto\RTE\Device\LPC4088FET208
-  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
-  C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\2.0.0\Device\Include
+  C:\Users\Lab. DBM\DBM\ARM\tetris_ea_lpc4088_P07_3\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
-   * Component: ARM::CMSIS:CORE:5.0.0
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
 
-   * Component: Keil::Device:Startup:1.0.1
-      Include file:  RTE_Driver\Config\RTE_Device.h
-      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
+   * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
       Include file:  Device\Include\LPC407x_8x_177x_8x.h
-Build Time Elapsed:  00:00:01
+      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
+Load "C:\\Users\\Lab. DBM\\DBM\\ARM\\tetris_ea_lpc4088_P07_3\\Objects\\tetris.axf" 
+* JLink Info: Device "LPC4088" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "C:\Users\Lab. DBM\DBM\ARM\tetris_ea_lpc4088_P07_3\JLinkSettings.ini"
+* JLink Info: Device "LPC4088" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 268006200 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC4088FET208
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
 </pre>
 </body>
 </html>

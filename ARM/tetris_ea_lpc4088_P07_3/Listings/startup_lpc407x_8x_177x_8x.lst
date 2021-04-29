@@ -451,20 +451,19 @@ ARM Macro Assembler    Page 7
               00000000 
               00000400 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\objects\startup_lpc407x_8x_177x_8x.d -o.\objects\startup_lpc4
+Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=.\obj
+ects\startup_lpc407x_8x_177x_8x.d -o.\objects\startup_lpc407x_8x_177x_8x.o -I"C
 
 
 
 ARM Macro Assembler    Page 8 
 
 
-07x_8x_177x_8x.o -ID:\_SSP\uVision\tetris_ea_lpc4088_incompleto\RTE -ID:\_SSP\u
-Vision\tetris_ea_lpc4088_incompleto\RTE\Device\LPC4088FET208 -IC:\Keil_v5\ARM\P
-ACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\
-2.0.0\Device\Include --predefine="__UVISION_VERSION SETA 520" --predefine="_RTE
-_ SETA 1" --predefine="CORE_M4 SETA 1" --list=.\listings\startup_lpc407x_8x_177
-x_8x.lst RTE\Device\LPC4088FET208\startup_LPC407x_8x_177x_8x.s
+:\Users\Lab. DBM\DBM\ARM\tetris_ea_lpc4088_P07_3\RTE" -IC:\Keil_v5\ARM\PACK\ARM
+\CMSIS\4.2.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\
+Include --predefine="_RTE_ SETA 1" --predefine="CORE_M4 SETA 1" --list=.\listin
+gs\startup_lpc407x_8x_177x_8x.lst RTE\Device\LPC4088FET208\startup_LPC407x_8x_1
+77x_8x.s
 
 
 
@@ -1168,4 +1167,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-409 symbols in table
+408 symbols in table
