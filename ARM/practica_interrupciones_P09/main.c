@@ -137,6 +137,7 @@ void TIMER0_IRQHandler(void)
 void GPIO_IRQHandler(void)
 {
 		NVIC_ClearPendingIRQ(GPIO_IRQn);
+	
 		if(LPC_GPIOINT->STATF2 & (1 << 27)){
 			LPC_GPIOINT->CLR2 |= (1 << 27);
 			TIMER0->TCR &= 0xfffe;

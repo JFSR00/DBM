@@ -1,0 +1,15 @@
+.\objects\error.o: error.c
+.\objects\error.o: C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\LPC407x_8x_177x_8x.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h
+.\objects\error.o: C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\system_LPC407x_8x_177x_8x.h
+.\objects\error.o: error.h
+.\objects\error.o: tipos.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\error.o: glcd.h
+.\objects\error.o: sdram.h
+.\objects\error.o: font.h
+.\objects\error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
