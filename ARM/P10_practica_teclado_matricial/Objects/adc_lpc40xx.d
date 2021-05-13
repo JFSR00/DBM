@@ -1,0 +1,12 @@
+.\objects\adc_lpc40xx.o: adc_lpc40xx.c
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\LPC407x_8x_177x_8x.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\system_LPC407x_8x_177x_8x.h
+.\objects\adc_lpc40xx.o: adc_lpc40xx.h
+.\objects\adc_lpc40xx.o: tipos.h
+.\objects\adc_lpc40xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\adc_lpc40xx.o: error.h

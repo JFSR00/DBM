@@ -21,11 +21,12 @@ Dialog DLL:      DCM.DLL V1.13.0.0
 Dialog DLL:      TCM.DLL V1.14.2.0
  
 <h2>Project:</h2>
-C:\Users\Lab. DBM\DBM\ARM\teclado_matricial\proyecto.uvprojx
-Project File Date:  05/06/2021
+C:\Users\Lab. DBM\DBM\ARM\P10_practica_teclado_matricial\proyecto.uvprojx
+Project File Date:  05/06/2018
 
 <h2>Output:</h2>
 Rebuild target 'Target 1'
+compiling adc_lpc40xx.c...
 compiling error.c...
 compiling font_8x16.c...
 compiling font_12x24.c...
@@ -33,25 +34,21 @@ compiling font_16x32.c...
 compiling glcd.c...
 compiling gpio_lpc40xx.c...
 compiling iocon_lpc40xx.c...
+compiling joystick.c...
+compiling ldr.c...
 compiling leds.c...
 compiling main.c...
 compiling sdram.c...
 compiling sonido.c...
+compiling teclado_4x4_interrupciones_gpio_y_timer.c...
 compiling timer_lpc40xx.c...
-compiling teclado_4x4_sondeo_basico.c...
 assembling startup_LPC407x_8x_177x_8x.s...
 compiling system_LPC407x_8x_177x_8x.c...
 linking...
-Program Size: Code=14536 RO-data=33240 RW-data=76 ZI-data=1124  
+Program Size: Code=22284 RO-data=30444 RW-data=100 ZI-data=1132  
 ".\Objects\proyecto.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
-
-Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
-                ARM::CMSIS:CORE:3.40.0
-                CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 3.40.0
 
 Package Vendor: Keil
                 http://www.keil.com/pack/Keil.LPC4000_DFP.1.1.0.pack
@@ -59,23 +56,29 @@ Package Vendor: Keil
                 NXP LPC4000 Series Device Support
    * Component: Startup Version: 1.0.0
 
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
 <h2>Collection of Component include folders:</h2>
-  C:\Users\Lab. DBM\DBM\ARM\teclado_matricial\RTE
+  C:\Users\Lab. DBM\DBM\ARM\P10_practica_teclado_matricial\RTE
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
   C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC407x_8x_177x_8x.h
+      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
+      Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
+
    * Component: ARM::CMSIS:CORE:3.40.0
       Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
-
-   * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
-      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
-      Include file:  Device\Include\LPC407x_8x_177x_8x.h
-Load "C:\\Users\\Lab. DBM\\DBM\\ARM\\teclado_matricial\\Objects\\proyecto.axf" 
+Load "C:\\Users\\Lab. DBM\\DBM\\ARM\\P10_practica_teclado_matricial\\Objects\\proyecto.axf" 
 * JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
-Set JLink Project File to "C:\Users\Lab. DBM\DBM\ARM\teclado_matricial\JLinkSettings.ini"
+Set JLink Project File to "C:\Users\Lab. DBM\DBM\ARM\P10_practica_teclado_matricial\JLinkSettings.ini"
 * JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
  
 JLink info:
