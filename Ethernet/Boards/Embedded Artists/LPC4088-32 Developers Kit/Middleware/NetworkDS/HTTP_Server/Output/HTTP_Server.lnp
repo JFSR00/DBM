@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+".\output\http_server.o"
+".\output\http_server_cgi.o"
+".\output\web.o"
+".\output\adc_ea_lpc4088.o"
+".\output\buttons_ea_lpc4088.o"
+".\output\glcd_ea_lpc4088.o"
+".\output\glcd_fonts.o"
+".\output\led_ea_lpc4088.o"
+".\output\rtx_conf_cm.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib"
+".\output\emac_lpc40xx.o"
+".\output\i2c_lpc40xx.o"
+".\output\phy_lan8720.o"
+".\output\gpio_lpc40xx.o"
+".\output\pin_lpc40xx.o"
+".\output\startup_lpc407x_8x_177x_8x.o"
+".\output\system_lpc407x_8x_177x_8x.o"
+".\output\net_config.o"
+"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.12.0\Network\Lib\ARM\Net_CM3_L.lib"
+--library_type=microlib --strict --scatter ".\Output\HTTP_Server.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Output\HTTP_Server.map" -o .\Output\HTTP_Server.axf
