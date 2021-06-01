@@ -58,7 +58,7 @@
 //          <o1.2>  EMC Burst Control
 //                  <i>     Set to 1 to prevent multiple sequential accesses to memory via EMC static memory chip selects
 //                  <0=>    Burst enabled (Bit 2 is 0)
-//                  <1=>    Burst disabled (Bit 2 is 1)
+//                  <1=>    Bust disbled (Bit 2 is 1)
 //
 //          <o1.3>  MCIPWR Active Level
 //                  <i>     Selects the active level for the SD card interface signal SD_PWR
@@ -84,7 +84,7 @@
 //      <e3>PLL0 Configuration (Main PLL PLL0CFG - address 0x400F C084)
 //          <i>         F_in  is in the range of 1 MHz to 25 MHz
 //          <i>         F_cco = (F_in * M * 2 * P) is in range of 156 MHz to 320 MHz
-//          <i>         PLL out clock = (F_cco / (2 * P)) is in range of 9.75 MHz to 160 MHz
+//          <i>         PLL out clock = (F_cco / (2 * P)) is in rane of 9.75 MHz to 160 MHz
 //
 //          <o4.0..4>   MSEL: PLL Multiplier Value
 //                      <i>             M Value
@@ -101,7 +101,7 @@
 //      <e5>PLL1 Configuration (Alt PLL PLL1CFG - address 0x400F C0A4)
 //          <i>         F_in  is in the range of 1 MHz to 25 MHz
 //          <i>         F_cco = (F_in * M * 2 * P) is in range of 156 MHz to 320 MHz
-//          <i>         PLL out clock = (F_cco / (2 * P)) is in range of 9.75 MHz to 160 MHz
+//          <i>         PLL out clock = (F_cco / (2 * P)) is in rane of 9.75 MHz to 160 MHz
 //
 //          <o6.0..4>   MSEL: PLL Multiplier Value
 //                      <i>             M Value
@@ -1203,7 +1203,7 @@ uint32_t USBClock        = (48000000UL);          /*!< USB Clock Frequency - thi
 
 
 /*----------------------------------------------------------------------------
-  System Core Clock update
+  Clock functions
  *----------------------------------------------------------------------------*/
 void SystemCoreClockUpdate (void)            /* Get Core Clock Frequency      */
 {
@@ -1683,9 +1683,15 @@ void SystemInit_ExtMemCtl(void) {
 }
 #endif /* (EMC_SETUP != 0) */
 
-/*----------------------------------------------------------------------------
-  Initialize the system
- *----------------------------------------------------------------------------*/
+/**
+ * Initialize the system
+ *
+ * @param  none
+ * @return none
+ *
+ * @brief  Setup the microcontroller system.
+ *         Initialize the System.
+ */
 void SystemInit (void)
 {
 #ifndef __CODE_RED

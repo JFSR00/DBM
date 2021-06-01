@@ -3,36 +3,150 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: µVision V5.34.0.0
-Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: - -, -, LIC=KIVRA-1225K-GQP0H-W85RQ-FJ8CQ-I8603
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: - -, -, LIC=4ZLII-TL8EF-8VH1H-WI0L5-ZTP52-MN3L0
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.34.0.0
-Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
-C Compiler:      ArmClang.exe V6.16
-Assembler:       Armasm.exe V6.16
-Linker/Locator:  ArmLink.exe V6.16
-Library Manager: ArmAr.exe V6.16
-Hex Converter:   FromElf.exe V6.16
-CPU DLL:         SARMCM3.DLL V5.34.0.0
-Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      UL2CM3.DLL V1.163.9.0
-Dialog DLL:      TCM.DLL V1.48.0.0
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
  
 <h2>Project:</h2>
 C:\Users\Lab. DBM\DBM\Proyecto\proyecto.uvprojx
 Project File Date:  06/01/2021
 
 <h2>Output:</h2>
-  
-Warning: *** SUPPORT EXPIRED, NEW PRODUCT SERIAL NUMBER REQUIRED ***
-         *** Running with Code Size Limit: 32K                   ***
-*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Rebuild target 'Target 1'
-FCARM - Output Name not specified, please check 'Options for Target - Utilities'
-Target not created.
-Build Time Elapsed:  00:00:00
+compiling error.c...
+compiling font_8x16.c...
+compiling font_12x24.c...
+compiling font_16x32.c...
+compiling glcd.c...
+compiling gpio_lpc40xx.c...
+compiling iocon_lpc40xx.c...
+compiling joystick.c...
+compiling leds.c...
+compiling main.c...
+compiling sdram.c...
+compiling sonido.c...
+compiling timer_lpc40xx.c...
+compiling uart_lpc40xx.c...
+assembling startup_LPC407x_8x_177x_8x.s...
+compiling system_LPC407x_8x_177x_8x.c...
+linking...
+Program Size: Code=15740 RO-data=33188 RW-data=76 ZI-data=1124  
+".\Objects\proyecto.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC4000_DFP.1.1.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP LPC4000 Series Device Support
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Lab. DBM\DBM\Proyecto\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
+      Include file:  Device\Include\LPC407x_8x_177x_8x.h
+      Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
+Load "C:\\Users\\Lab. DBM\\DBM\\Proyecto\\Objects\\proyecto.axf" 
+* JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
+Set JLink Project File to "C:\Users\Lab. DBM\DBM\Proyecto\JLinkSettings.ini"
+* JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 268006202 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC4088FET208
+VTarget = 3.267V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
 </pre>
 </body>
 </html>
+ running
+Programming Done.
+Verify OK.
+Load "C:\\Users\\Lab. DBM\\DBM\\Proyecto\\Objects\\proyecto.axf" 
+* JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
+Set JLink Project File to "C:\Users\Lab. DBM\DBM\Proyecto\JLinkSettings.ini"
+* JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 268006202 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC4088FET208
+VTarget = 3.274V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
