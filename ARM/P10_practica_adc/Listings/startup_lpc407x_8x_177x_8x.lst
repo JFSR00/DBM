@@ -451,19 +451,20 @@ ARM Macro Assembler    Page 7
               00000000 
               00000400 
               00000000 
-Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=.\obj
-ects\startup_lpc407x_8x_177x_8x.d -o.\objects\startup_lpc407x_8x_177x_8x.o -I"C
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=.\objects\startup_lpc407x_8x_177x_8x.d -o.\objects\startup_l
 
 
 
 ARM Macro Assembler    Page 8 
 
 
-:\Users\Lab. DBM\DBM\ARM\P10_practica_adc\RTE" -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\
-4.2.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include
- --predefine="_RTE_ SETA 1" --predefine="CORE_M4 SETA 1" --list=.\listings\star
-tup_lpc407x_8x_177x_8x.lst RTE\Device\LPC4088FET208\startup_LPC407x_8x_177x_8x.
-s
+pc407x_8x_177x_8x.o -I.\RTE\Device\LPC4088FET208 -I.\RTE\_Target_1 -IC:\Keil_v5
+\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include -IC:\Keil_v5\ARM\PACK\Keil\LPC4000
+_DFP\2.1.0\Device\Include --predefine="__UVISION_VERSION SETA 534" --predefine=
+"_RTE_ SETA 1" --predefine="CORE_M4 SETA 1" --predefine="_RTE_ SETA 1" --list=.
+\listings\startup_lpc407x_8x_177x_8x.lst RTE\Device\LPC4088FET208\startup_LPC40
+7x_8x_177x_8x.s
 
 
 
@@ -1167,4 +1168,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-408 symbols in table
+409 symbols in table

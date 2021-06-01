@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp
+--cpu=Cortex-M4.fp.sp
 ".\objects\error.o"
 ".\objects\font_8x16.o"
 ".\objects\font_12x24.o"
@@ -16,6 +16,6 @@
 ".\objects\startup_lpc407x_8x_177x_8x.o"
 ".\objects\system_lpc407x_8x_177x_8x.o"
 --strict --scatter ".\Objects\proyecto.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\proyecto.map" -o .\Objects\proyecto.axf
