@@ -19,3 +19,4 @@
 .\objects\main.o: gpio_lpc40xx.h
 .\objects\main.o: timer_lpc40xx.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: esp8266.h

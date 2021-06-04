@@ -13,6 +13,7 @@
 ".\objects\sonido.o"
 ".\objects\timer_lpc40xx.o"
 ".\objects\uart_lpc40xx.o"
+".\objects\esp8266.o"
 ".\objects\startup_lpc407x_8x_177x_8x.o"
 ".\objects\system_lpc407x_8x_177x_8x.o"
 --strict --scatter ".\Objects\proyecto.sct"

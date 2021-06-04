@@ -11,29 +11,31 @@
 #include "timer_lpc40xx.h"
 #include "stdlib.h"
 #include "stdio.h"
+#include "esp8266.h"
 
 // main para el ejercicio 2.
 
 int main(void)
 {
-	char buff[40];
+	int counter = 0;
 	
 	glcd_inicializar();
 	glcd_borrar(NEGRO);
-	uart_inicializar(UART2, UART_BAUDRATE_9600, UART_BITS_DATOS_8, UART_PARIDAD_NINGUNA, UART_BITS_STOP_1, PUERTO0, PIN10, PUERTO0, PIN11, NULL);
+
+	uart_inicializar(UART3, UART_BAUDRATE_9600, UART_BITS_DATOS_8, UART_PARIDAD_NINGUNA, UART_BITS_STOP_1, PUERTO0, PIN2, PUERTO0, PIN3, NULL);
 	
 	timer_inicializar(TIMER0);
+	
+	glcd_xy_texto(0,0);
+	glcd_borrar(NEGRO);
+	
+	WIFI_connectWlan("iPhone", "Alvaro20");
+	//WIFI_connectWlan("WLAN_J3A4", "20200430");
 
 	while(TRUE){
-		glcd_xy_texto(0,0);
-		glcd_borrar(NEGRO);
-		
-		uart_transmitir_cadena(UART0, "AT\n\r");
-		uart_recibir_cadena(UART2, buff, 12);
-		glcd_printf("%s", buff);
-		uart_transmitir_cadena(UART0, "AT\r\n");
-		uart_recibir_cadena(UART2, buff, 12);
-		glcd_printf("%s", buff);
+		uint8_t WIFI_sendJSON(char *host, uint16_t port, char *url, char *content);
+		glcd_printf("\nContador: %d", counter);
+		counter++;
 		timer_retardo_ms(TIMER0, 5000);
 	}
 }

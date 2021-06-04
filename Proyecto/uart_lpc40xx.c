@@ -304,8 +304,8 @@ void uart_transmitir_cadena(LPC_UART_TypeDef *uart_regs, const char *cadena)
 		uart_transmitir_dato(uart_regs, cadena[i]);
 		i++;
 	}
-	uart_transmitir_dato(uart_regs, 0x0a);	// Carácter LF
 	uart_transmitir_dato(uart_regs, 0x0d);	// Carácter CR
+	uart_transmitir_dato(uart_regs, 0x0a);	// Carácter LF
 }
 
 /***************************************************************************//**
@@ -344,7 +344,7 @@ void uart_recibir_cadena(LPC_UART_TypeDef *uart_regs,
 	}
 	i = 0;
 	while((tamano_buffer > 1) && (i < tamano_buffer) && (ptr_buffer[i]!=0x0d && ptr_buffer[i-1]!=0x0a)){
-		ptr_buffer[i] = uart_esperar_recibir_dato(UART0);
+		ptr_buffer[i] = uart_esperar_recibir_dato(uart_regs);
 		i++;
 	}
 	ptr_buffer[i-1] = 0;
