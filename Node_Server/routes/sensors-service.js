@@ -7,7 +7,8 @@ const Reservas = function () {
 };
 
 Reservas.prototype.connectDb = function (callback) {
-    MongoClient.connect("mongodb+srv://JFSR:testJFSR@jfsr-pnet-2020-2021.3ha7n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    //MongoClient.connect("mongodb+srv://JFSR:testJFSR@jfsr-pnet-2020-2021.3ha7n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	MongoClient.connect("mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
         {useNewUrlParser: true, useUnifiedTopology: true},
         function (err, database) {
             if (err) {
