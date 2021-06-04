@@ -91,7 +91,7 @@ I (tipos.h)(0x60B5FD53)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419FFEA)
 I (gpio_lpc40xx.h)(0x60B5FD53)
 I (error.h)(0x60B5FD53)
-F (.\main.c)(0x60B9F0C1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x60BA10CD)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\LPC407x_8x_177x_8x.h)(0x539FF742)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FC944A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419FFEA)
@@ -112,7 +112,11 @@ I (uart_lpc40xx.h)(0x60B5FD53)
 I (gpio_lpc40xx.h)(0x60B5FD53)
 I (timer_lpc40xx.h)(0x60B5FD53)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419FFEC)
-I (esp8266.h)(0x60B9E9FE)
+I (esp8266.h)(0x60BA08F1)
+I (adc_lpc40xx.h)(0x60B5FD53)
+I (termistor_ntc.h)(0x60B5FD53)
+I (ldr.h)(0x60B5FD53)
+I (sonido.h)(0x60B5FD53)
 F (.\sdram.c)(0x60B5FD53)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\sdram.o --omf_browse .\objects\sdram.crf --depend .\objects\sdram.d)
 I (C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\LPC407x_8x_177x_8x.h)(0x539FF742)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FC944A)
@@ -165,7 +169,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419FFEA)
 I (iocon_lpc40xx.h)(0x60B5FD53)
 I (error.h)(0x60B5FD53)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5566F06C)
-F (.\esp8266.c)(0x60B9EFCA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
+F (.\esp8266.c)(0x60BA110A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
 I (C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\LPC407x_8x_177x_8x.h)(0x539FF742)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FC944A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419FFEA)
@@ -175,7 +179,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FC944A)
 I (C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\system_LPC407x_8x_177x_8x.h)(0x4FF169DA)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419FFEC)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419FFEC)
-I (esp8266.h)(0x60B9E9FE)
+I (esp8266.h)(0x60BA08F1)
 I (uart_lpc40xx.h)(0x60B5FD53)
 I (gpio_lpc40xx.h)(0x60B5FD53)
 I (tipos.h)(0x60B5FD53)
@@ -183,7 +187,32 @@ I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419FFEA)
 I (glcd.h)(0x60B5FD53)
 I (sdram.h)(0x60B5FD53)
 I (font.h)(0x60B5FD53)
-F (.\esp8266.h)(0x60B9E9FE)()
+F (.\esp8266.h)(0x60BA08F1)()
+F (.\adc_lpc40xx.c)(0x60B5FD53)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\adc_lpc40xx.o --omf_browse .\objects\adc_lpc40xx.crf --depend .\objects\adc_lpc40xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\LPC407x_8x_177x_8x.h)(0x539FF742)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FC944A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419FFEA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF551A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF551A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FC944A)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include\system_LPC407x_8x_177x_8x.h)(0x4FF169DA)
+I (adc_lpc40xx.h)(0x60B5FD53)
+I (tipos.h)(0x60B5FD53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419FFEA)
+I (error.h)(0x60B5FD53)
+F (.\adc_lpc40xx.h)(0x60B5FD53)()
+F (.\termistor_ntc.h)(0x60B5FD53)()
+F (.\termistor_ntc.c)(0x60B5FD53)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\termistor_ntc.o --omf_browse .\objects\termistor_ntc.crf --depend .\objects\termistor_ntc.d)
+I (termistor_ntc.h)(0x60B5FD53)
+I (tipos.h)(0x60B5FD53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419FFEA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5566F06C)
+F (.\ldr.h)(0x60B5FD53)()
+F (.\ldr.c)(0x60B5FD53)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\ldr.o --omf_browse .\objects\ldr.crf --depend .\objects\ldr.d)
+I (ldr.h)(0x60B5FD53)
+I (tipos.h)(0x60B5FD53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419FFEA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5566F06C)
 F (RTE\Device\LPC4088FET208\startup_LPC407x_8x_177x_8x.s)(0x60B5FD53)(--cpu Cortex-M4.fp -g --apcs=interwork -I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include--pd "_RTE_ SETA 1" --pd "CORE_M4 SETA 1"--list .\listings\startup_lpc407x_8x_177x_8x.lst --xref -o .\objects\startup_lpc407x_8x_177x_8x.o --depend .\objects\startup_lpc407x_8x_177x_8x.d)
 F (RTE\Device\LPC4088FET208\system_LPC407x_8x_177x_8x.c)(0x60B5FD53)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I "C:\Users\Lab. DBM\DBM\Proyecto\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC4000_DFP\1.1.0\Device\Include-D_RTE_ -DCORE_M4-o .\objects\system_lpc407x_8x_177x_8x.o --omf_browse .\objects\system_lpc407x_8x_177x_8x.crf --depend .\objects\system_lpc407x_8x_177x_8x.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419FFEA)

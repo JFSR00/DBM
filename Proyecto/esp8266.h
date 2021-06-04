@@ -12,6 +12,8 @@
 
 #define WIFI_OK 0
 #define WIFI_ERROR 1
+#define WIFI_FAIL 2
+#define WIFI_OTHER 3
 
 uint8_t WIFI_connectWlan(char *ssid, char *pass);
 

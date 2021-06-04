@@ -132,7 +132,7 @@ uint32_t adc_convertir(uint32_t canal)
  *
  * \return      Tensión correspondiente a resultado_adc.
  */
-float adc_traducir_a_tension(uint32_t resultado_adc)
+float32_t adc_traducir_a_tension(uint32_t resultado_adc)
 {
     ASSERT(resultado_adc < 4096, "Valor ADC de entrada incorrecto.");
     

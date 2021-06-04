@@ -478,6 +478,46 @@
               <FileType>1</FileType>
               <FilePath>.\uart_lpc40xx.c</FilePath>
             </File>
+            <File>
+              <FileName>esp8266.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\esp8266.c</FilePath>
+            </File>
+            <File>
+              <FileName>esp8266.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\esp8266.h</FilePath>
+            </File>
+            <File>
+              <FileName>adc_lpc40xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\adc_lpc40xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc_lpc40xx.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\adc_lpc40xx.h</FilePath>
+            </File>
+            <File>
+              <FileName>termistor_ntc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\termistor_ntc.h</FilePath>
+            </File>
+            <File>
+              <FileName>termistor_ntc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\termistor_ntc.c</FilePath>
+            </File>
+            <File>
+              <FileName>ldr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ldr.h</FilePath>
+            </File>
+            <File>
+              <FileName>ldr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ldr.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
