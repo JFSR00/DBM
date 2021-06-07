@@ -21,6 +21,8 @@
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: esp8266.h
 .\objects\main.o: adc_lpc40xx.h
+.\objects\main.o: rtc_lpc40xx.h
 .\objects\main.o: termistor_ntc.h
 .\objects\main.o: ldr.h
 .\objects\main.o: sonido.h
+.\objects\main.o: watchdog.h

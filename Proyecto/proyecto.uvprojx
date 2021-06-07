@@ -518,6 +518,26 @@
               <FileType>1</FileType>
               <FilePath>.\ldr.c</FilePath>
             </File>
+            <File>
+              <FileName>watchdog.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\watchdog.c</FilePath>
+            </File>
+            <File>
+              <FileName>rtc_lpc40xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rtc_lpc40xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>rtc_lpc40xx.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rtc_lpc40xx.h</FilePath>
+            </File>
+            <File>
+              <FileName>tipos.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\tipos.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

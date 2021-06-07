@@ -16,3 +16,4 @@
 .\objects\esp8266.o: glcd.h
 .\objects\esp8266.o: sdram.h
 .\objects\esp8266.o: font.h
+.\objects\esp8266.o: timer_lpc40xx.h

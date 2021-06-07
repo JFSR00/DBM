@@ -22,7 +22,7 @@ Dialog DLL:      TCM.DLL V1.14.2.0
  
 <h2>Project:</h2>
 C:\Users\Lab. DBM\DBM\Proyecto\proyecto.uvprojx
-Project File Date:  06/01/2021
+Project File Date:  06/04/2021
 
 <h2>Output:</h2>
 Rebuild target 'Target 1'
@@ -36,8 +36,8 @@ compiling iocon_lpc40xx.c...
 compiling joystick.c...
 compiling leds.c...
 compiling main.c...
-main.c(28): warning:  #177-D: variable "wifiRes" was declared but never referenced
-        uint8_t wifiRes;
+watchdog.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif /* WATCHDOG_H_ */
 main.c: 1 warning, 0 errors
 compiling sdram.c...
 compiling sonido.c...
@@ -47,11 +47,16 @@ compiling esp8266.c...
 compiling adc_lpc40xx.c...
 compiling termistor_ntc.c...
 compiling ldr.c...
+compiling watchdog.c...
+watchdog.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif /* WATCHDOG_H_ */
+watchdog.c: 1 warning, 0 errors
+compiling rtc_lpc40xx.c...
 assembling startup_LPC407x_8x_177x_8x.s...
 compiling system_LPC407x_8x_177x_8x.c...
 linking...
-Program Size: Code=25972 RO-data=33540 RW-data=76 ZI-data=1124  
-".\Objects\proyecto.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=26896 RO-data=33656 RW-data=76 ZI-data=1124  
+".\Objects\proyecto.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -78,9 +83,9 @@ Package Vendor: Keil
       Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
-      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
       Include file:  Device\Include\LPC407x_8x_177x_8x.h
+      Source file:   Device\Source\ARM\startup_LPC407x_8x_177x_8x.s
+      Source file:   Device\Source\system_LPC407x_8x_177x_8x.c
 Load "C:\\Users\\Lab. DBM\\DBM\\Proyecto\\Objects\\proyecto.axf" 
 * JLink Info: Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).
 Set JLink Project File to "C:\Users\Lab. DBM\DBM\Proyecto\JLinkSettings.ini"
@@ -119,3 +124,12 @@ Verify OK.
 </pre>
 </body>
 </html>
+ 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
